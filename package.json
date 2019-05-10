@@ -1,0 +1,40 @@
+{
+  "name": "my-hyperdev-app",
+  "version": "0.0.1",
+  "description": "What am I about?",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@hapi/joi": "^15.0.2",
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "helmet": "^3.18.0",
+    "lodash": "^4.17.11",
+    "mocha": "^6.1.4",
+    "mongoose": "^5.5.7",
+    "zombie": "^6.1.4"
+  },
+  "engines": {
+    "node": "^10.15.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://hyperdev.com/#!/project/welcome-project"
+  },
+  "keywords": [
+    "node",
+    "hyperdev",
+    "express"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.2"
+  }
+}
